@@ -1,4 +1,4 @@
- Finding out how many of the top 5 customers are based within each country.
+Query used to find out how many of the top 5 customers are based within each country.
  
 SELECT A.country,
        COUNT(DISTINCT D.customer_id) AS all_customer_count,
